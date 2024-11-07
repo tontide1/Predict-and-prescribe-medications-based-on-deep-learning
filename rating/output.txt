@@ -1,0 +1,98 @@
+TESTING 1 (Optimizer = adam, epoch = 100, batch_size = 64, model = LSTM)
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 15ms/step
+Vấn đề của bệnh nhân: đau họng và khó thở
+Bệnh dự đoán: Viêm họng
+Đơn thuốc dự đoán: Tăng lượng chất lỏng đưa vào cơ thể; kê đơn thuốc giãn phế quản.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+Vấn đề của bệnh nhân: tôi hay bị tiêu chảy, đầy hơi và khó tiêu sau khi ăn
+Bệnh dự đoán: Ung thư thực quản
+Đơn thuốc dự đoán: Can thiệp phẫu thuật; hóa trị và xạ trị.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+Vấn đề của bệnh nhân: tóc rụng nhiều và da nổi nhiều mụn
+Bệnh dự đoán: Cường giáp
+Đơn thuốc dự đoán: Thuốc hạ sốt; nghỉ ngơi; uống nhiều nước.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step
+Vấn đề của bệnh nhân: đau khớp gối khi vận động nhiều
+Bệnh dự đoán: Viêm khớp dạng thấp
+Đơn thuốc dự đoán: NSAID; vật lý trị liệu.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+Vấn đề của bệnh nhân: mờ mắt và hay bị đau đầu nhiều sau khi sử dụng điện thoại trong 1 thời gian dài
+Bệnh dự đoán: Bệnh lupus
+Đơn thuốc dự đoán: Thuốc chống viêm, nghỉ ngơi.
+
+TESTING 2 (Optimizer = nadam, epoch = 100, batch_size = 64, model = LSTM)
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 121ms/step
+Vấn đề của bệnh nhân: đau họng và khó thở
+Bệnh dự đoán: Bệnh Alzheimer
+Đơn thuốc dự đoán: Liệu pháp kích thích nhận thức, chăm sóc hỗ trợ.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+Vấn đề của bệnh nhân: tôi hay bị tiêu chảy, đầy hơi và khó tiêu sau khi ăn
+Bệnh dự đoán: Herpes đơn giản
+Đơn thuốc dự đoán: Thuốc kháng vi-rút và giảm đau.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+Vấn đề của bệnh nhân: tóc rụng nhiều và da nổi nhiều mụn
+Bệnh dự đoán: Rụng tóc từng mảng
+Đơn thuốc dự đoán: Kiểm tra chức năng gan và tránh uống rượu.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+Vấn đề của bệnh nhân: đau khớp gối khi vận động nhiều
+Bệnh dự đoán: Viêm khớp dạng thấp
+Đơn thuốc dự đoán: Thuốc DMARD và thuốc NSAID.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+Vấn đề của bệnh nhân: mờ mắt và hay bị đau đầu nhiều sau khi sử dụng điện thoại trong 1 thời gian dài
+Bệnh dự đoán: Bệnh lý thần kinh ngoại biên
+Đơn thuốc dự đoán: Đeo kính thuốc theo chỉ định và nghỉ ngơi mắt.
+
+TESTING 3 (Optimizer = RMSprop, epoch = 100, batch_size = 64, model = LSTM)
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+Vấn đề của bệnh nhân: đau họng và khó thở
+Bệnh dự đoán: Viêm họng
+Đơn thuốc dự đoán: Thuốc kháng sinh nếu bị nhiễm khuẩn và thuốc giảm ho.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 16ms/step
+Vấn đề của bệnh nhân: tôi hay bị tiêu chảy, đầy hơi và khó tiêu sau khi ăn
+Bệnh dự đoán: Tăng tiết mồ hôi
+Đơn thuốc dự đoán: Đề nghị thay đổi chế độ ăn uống; kê đơn thuốc chống co thắt nếu cần.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+Vấn đề của bệnh nhân: tóc rụng nhiều và da nổi nhiều mụn
+Bệnh dự đoán: Bệnh tiểu đường loại 1
+Đơn thuốc dự đoán: Liệu pháp thay thế hormone tuyến giáp.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+Vấn đề của bệnh nhân: đau khớp gối khi vận động nhiều
+Bệnh dự đoán: Viêm khớp dạng thấp
+Đơn thuốc dự đoán: Liệu pháp thay thế hormone tuyến giáp.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step
+Vấn đề của bệnh nhân: mờ mắt và hay bị đau đầu nhiều sau khi sử dụng điện thoại trong 1 thời gian dài
+Bệnh dự đoán: Đau nửa đầu
+Đơn thuốc dự đoán: Thuốc kích thích; liệu pháp hành vi.
+
+TESTING 4 (Optimizer = Adam(lr = 0.018),  epoch = 100, batch_size = 64, model = LSTM, len = 944 )
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step
+Vấn đề của bệnh nhân: đau họng và khó thở
+Bệnh dự đoán: Viêm Họng
+Đơn thuốc dự đoán: Nghỉ ngơi, nước ấm và thuốc giảm đau.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+Vấn đề của bệnh nhân: tôi hay bị tiêu chảy, đầy hơi và khó tiêu sau khi ăn
+Bệnh dự đoán: Không dung nạp Lactose
+Đơn thuốc dự đoán: Bổ sung lactase và điều chỉnh chế độ ăn uống.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 18ms/step
+Vấn đề của bệnh nhân: tóc rụng nhiều và da nổi nhiều mụn
+Bệnh dự đoán: Đau nửa đầu
+Đơn thuốc dự đoán: Hóa trị hoặc xạ trị tùy thuộc vào giai đoạn bệnh.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+Vấn đề của bệnh nhân: mờ mắt và hay bị đau đầu nhiều sau khi sử dụng điện thoại trong 1 thời gian dài
+Bệnh dự đoán: Tiểu Đường Loại 2
+Đơn thuốc dự đoán: Thuốc hạ đường huyết và thay đổi lối sống.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+Vấn đề của bệnh nhân: tôi thường xuyên bị đau lưng dưới, khó di chuyển đứng lên hoặc ngồi xuống
+Bệnh dự đoán: Đau thần kinh tọa
+Đơn thuốc dự đoán: NSAIDs và vật lý trị liệu.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 12ms/step
+Vấn đề của bệnh nhân: 
+Bệnh dự đoán: Bệnh mất trí nhớ khởi phát sớm
+Đơn thuốc dự đoán: Nghỉ ngơi và thuốc giảm đau.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 17ms/step
+Vấn đề của bệnh nhân: cổ tôi bị cứng đơ sau khi ngủ dậy
+Bệnh dự đoán: Viêm Khớp
+Đơn thuốc dự đoán: Thuốc chống trầm cảm, liệu pháp tâm lý.

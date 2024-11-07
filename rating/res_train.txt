@@ -1,0 +1,109 @@
+epoch = 50, batch_size = 32, lr = 0.001
+avg_disease_accuracy 0.5195822719112039
+avg_prescription_accuracy 0.46943733902648094
+
+epoch = 50, batch_size = 64, lr = 0.001
+avg_disease_accuracy 0.38218244053423406
+avg_prescription_accuracy 0.2821057113260031
+
+epoch = 80, batch_size = 64, lr = 0.001
+avg_disease_accuracy 0.557179774553515
+avg_prescription_accuracy 0.4900175807881169
+
+epoch = 80, batch_size = 64, lr = 0.018
+avg_disease_accuracy 0.7866075220517814
+avg_prescription_accuracy 0.793147912120912
+
+epoch = 80, batch_size = 32, lr = 0.001
+avg_disease_accuracy 0.6715606353944168
+avg_prescription_accuracy 0.6309436260606163
+
+epoch = 60, batch_size = 64, lr = 0.015
+avg_disease_accuracy 0.7495915052480996
+avg_prescription_accuracy 0.7476733432461818
+
+epoch = 60, batch_size = 64, lr = 0.015
+avg_disease_accuracy 0.8207054561314483
+avg_prescription_accuracy 0.8226840030401945
+
+epoch = 60, batch_size = 64, lr = 0.01
+avg_disease_accuracy 0.8203893140889704
+avg_prescription_accuracy 0.8074559528846293
+
+epoch = 60, batch_size = 64, lr = 0.005
+avg_disease_accuracy 0.8019252623120944
+avg_prescription_accuracy 0.789670362044125
+
+epoch = 70. batch_size = 64, lr = 0.015
+avg_disease_accuracy 0.7473815622872539
+avg_prescription_accuracy 0.7477073435139443
+-> accuracy giảm sau epoch thứ 62
+
+
+Training with learning rate: 0.002
+Learning Rate: 0.002
+Average Disease Accuracy: 0.6736
+Average Prescription Accuracy: 0.6531
+
+Training with learning rate: 0.004
+Learning Rate: 0.004
+Average Disease Accuracy: 0.8094
+Average Prescription Accuracy: 0.7943
+
+Training with learning rate: 0.006
+Learning Rate: 0.006
+Average Disease Accuracy: 0.7813
+Average Prescription Accuracy: 0.7703
+
+Training with learning rate: 0.008
+Learning Rate: 0.008
+Average Disease Accuracy: 0.8227
+Average Prescription Accuracy: 0.8106
+
+Training with learning rate: 0.01
+Learning Rate: 0.01
+Average Disease Accuracy: 0.8300
+Average Prescription Accuracy: 0.8189
+
+Training with learning rate: 0.012
+Learning Rate: 0.012
+Average Disease Accuracy: 0.7768
+Average Prescription Accuracy: 0.7725
+
+Training with learning rate: 0.014
+Learning Rate: 0.014
+Average Disease Accuracy: 0.7941
+Average Prescription Accuracy: 0.7925
+
+Training with learning rate: 0.016
+Learning Rate: 0.016
+Average Disease Accuracy: 0.7637
+Average Prescription Accuracy: 0.7771
+
+Training with learning rate: 0.018
+Learning Rate: 0.018
+Average Disease Accuracy: 0.7151
+Average Prescription Accuracy: 0.7213
+
+Training with learning rate: 0.02
+Learning Rate: 0.02
+Average Disease Accuracy: 0.7317
+Average Prescription Accuracy: 0.7355
+
+Summary of Accuracies for Different Learning Rates:
+LR: 0.002, Disease Acc: 0.6736, Prescription Acc: 0.6531
+LR: 0.004, Disease Acc: 0.8094, Prescription Acc: 0.7943
+LR: 0.006, Disease Acc: 0.7813, Prescription Acc: 0.7703
+LR: 0.008, Disease Acc: 0.8227, Prescription Acc: 0.8106
+LR: 0.01, Disease Acc: 0.8300, Prescription Acc: 0.8189
+LR: 0.012, Disease Acc: 0.7768, Prescription Acc: 0.7725
+LR: 0.014, Disease Acc: 0.7941, Prescription Acc: 0.7925
+LR: 0.016, Disease Acc: 0.7637, Prescription Acc: 0.7771
+LR: 0.018, Disease Acc: 0.7151, Prescription Acc: 0.7213
+LR: 0.02, Disease Acc: 0.7317, Prescription Acc: 0.7355
+Best Learning Rate: 0.01
+
+
+Không nhập từ:
+- đau lưng
+- khớp
