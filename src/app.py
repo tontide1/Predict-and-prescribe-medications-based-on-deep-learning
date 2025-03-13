@@ -62,10 +62,14 @@ st.markdown(custom_css, unsafe_allow_html=True)
 # Tải mô hình và các bộ mã hóa với cache_resource
 @st.cache_resource
 def load_resources():
-    model = load_model("C:\\Users\\tontide1\\my-data\\AI\\final\\data\\tokenizer_data_test\\0.94_0.97\\trained_model.keras")
-    vocab = joblib.load("C:\\Users\\tontide1\\my-data\\AI\\final\\data\\tokenizer_data_test\\0.94_0.97\\vocab.pkl")
-    label_encoder_disease = joblib.load("C:\\Users\\tontide1\\my-data\\AI\\final\\data\\tokenizer_data_test\\0.94_0.97\\label_encoder_disease.pkl")
-    label_encoder_prescription = joblib.load("C:\\Users\\tontide1\\my-data\\AI\\final\\data\\tokenizer_data_test\\0.94_0.97\\label_encoder_prescription.pkl")
+    import os
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    model_dir = os.path.join(base_dir, "data", "tokenizer_data")
+    
+    model = load_model(os.path.join(model_dir, "trained_model.keras"))
+    vocab = joblib.load(os.path.join(model_dir, "vocab.pkl"))
+    label_encoder_disease = joblib.load(os.path.join(model_dir, "label_encoder_disease.pkl"))
+    label_encoder_prescription = joblib.load(os.path.join(model_dir, "label_encoder_prescription.pkl"))
     return model, vocab, label_encoder_disease, label_encoder_prescription
 
 model, vocab, label_encoder_disease, label_encoder_prescription = load_resources()
@@ -165,5 +169,4 @@ st.sidebar.markdown(
         Công cụ này dành cho mục đích giáo dục và chưa thể thay thế tư vấn y tế chuyên nghiệp.
     </div>
     """,
-    unsafe_allow_html=True
-)
+    unsafe_allow_html=True)
