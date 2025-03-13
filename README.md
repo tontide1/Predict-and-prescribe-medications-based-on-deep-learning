@@ -12,7 +12,7 @@ This project implements a deep learning system that predicts medical conditions 
 - Interactive interface for real-time predictions
 
 ## Technical Stack
-- Python 3.9
+- Python 3.10
 - TensorFlow
 - PyVi (Vietnamese NLP)
 - Streamlit (Web Interface)
@@ -44,5 +44,7 @@ pip install -r requirements.txt
 ```
 3. Run the Streamlit app:
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 ```
+
+#### Note: This project is for educational purposes only. So i don't have the medical data. And this is not a perfect project. If you want to use this project, you need to collect your own medical data. And modify the code.
